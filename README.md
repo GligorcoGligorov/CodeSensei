@@ -78,14 +78,16 @@ Track the top coders on the platform with a ranked leaderboard showing solved co
 ---
 
 ## Architecture
+
+```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │                 │     │                 │     │                 │
 │  React Frontend │────▶│  Express Backend│────▶│   OpenAI API    │
 │  (Vercel)       │     │  (Railway)      │     │   GPT-4 Hints   │
 │                 │     │                 │     │                 │
 └────────┬────────┘     └─────────────────┘     └─────────────────┘
-│
-▼
+         │
+         ▼
 ┌─────────────────┐
 │                 │
 │    Supabase     │
@@ -94,7 +96,7 @@ Track the top coders on the platform with a ranked leaderboard showing solved co
 │  Leaderboard    │
 │                 │
 └─────────────────┘
----
+```
 
 ## Local Development
 
@@ -131,6 +133,8 @@ node index.js
 ---
 
 ## Project Structure
+
+```
 CodeSensei/
 ├── frontend/
 │   ├── src/
@@ -149,7 +153,7 @@ CodeSensei/
 │   └── package.json
 ├── screenshots/
 └── README.md
----
+```
 
 ## Author
 
