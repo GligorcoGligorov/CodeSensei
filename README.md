@@ -1,6 +1,9 @@
 # CodeSensei 🥷
 
 > AI-powered coding interview prep platform — practice challenges with an intelligent mentor that gives you progressive hints without spoiling the solution.
+>
+> 🌐 **Live Demo:** [codesensei-three.vercel.app](https://codesensei-three.vercel.app)
+> 
 
 ![CodeSensei Home](screenshots/home.png)
 
