@@ -116,7 +116,7 @@ function Challenge() {
                 setLoadingHint(true)
                 setAttemptCount(prev => prev + 1)
                 try {
-                  const response = await fetch('http://localhost:3001/api/hint', {
+                  const response = await fetch('https://codesensei-production-2c48.up.railway.app/api/hint', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -163,7 +163,7 @@ function Challenge() {
             onClick={async () => {
               setSubmitting(true)
               try {
-                const response = await fetch('http://localhost:3001/api/execute', {
+                const response = await fetch('https://codesensei-production-2c48.up.railway.app/api/execute', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({ challengeId: id, code }),
